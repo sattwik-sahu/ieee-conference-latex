@@ -1,0 +1,13 @@
+\newcommand{\authoremail}[1]{%
+	\href{mailto:#1}{\texttt{#1}}%
+}
+
+\newcommand{\ieeeauthor}[5]{%
+	\IEEEauthorblockN{#1}
+	\IEEEauthorblockA{%
+		\textit{#2}\\
+		#3\\
+		#4\\
+		\authoremail{#5}
+	}%
+}
